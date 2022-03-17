@@ -18,7 +18,7 @@ const Section = ({
       <Buttons>
         <ButtonGroup>
           <LeftButton>{leftBtnText}</LeftButton>
-          <RighButton>{rightBtnText}</RighButton>
+          {rightBtnText && <RighButton>{rightBtnText}</RighButton>}
         </ButtonGroup>
         {showDownArrow && <DownArrow src="/images/down-arrow.svg" />}
       </Buttons>
