@@ -7,6 +7,7 @@ const Section = ({
   backgroundImg,
   rightBtnText,
   leftBtnText,
+  showDownArrow,
 }) => {
   return (
     <Wrap bgImage={backgroundImg}>
@@ -19,7 +20,7 @@ const Section = ({
           <LeftButton>{leftBtnText}</LeftButton>
           <RighButton>{rightBtnText}</RighButton>
         </ButtonGroup>
-        <DownArrow src="/images/down-arrow.svg" />
+        {showDownArrow && <DownArrow src="/images/down-arrow.svg" />}
       </Buttons>
     </Wrap>
   );

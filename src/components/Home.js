@@ -11,6 +11,7 @@ const Home = () => {
         backgroundImg="model-s.jpg"
         leftBtnText="Custom Order"
         rightBtnText="Existing inventory"
+        showDownArrow
       />
       <Section
         title="Model Y"
@@ -32,6 +33,26 @@ const Home = () => {
         backgroundImg="model-x.jpg"
         leftBtnText="Custom Order"
         rightBtnText="Existing inventory"
+      />
+      <Section
+        title="Solar Panels"
+        description="Lowest Cost Solar Panels in America"
+        backgroundImg="solar-panel.jpg"
+        leftBtnText="Order Now"
+        rightBtnText="Learn More"
+      />
+      <Section
+        title="Solar Roof"
+        description="Produce Clean Energy From Your Roof"
+        backgroundImg="solar-roof.jpg"
+        leftBtnText="Order Now"
+        rightBtnText="Learn More"
+      />
+      <Section
+        title="Accessories"
+        description=""
+        backgroundImg="accessories.jpg"
+        leftBtnText="Shop Now"
       />
     </Container>
   );
