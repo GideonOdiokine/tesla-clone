@@ -61,15 +61,17 @@ const LeftButton = styled.div`
   margin: 8px;
 `;
 
-const RighButton = styled(LeftButton)``;
+const RighButton = styled(LeftButton)`
+  background: #fff;
+  opacity: 0.65;
+  color: #000;
+`;
 
 const DownArrow = styled.img`
-  margin-top: 21px;
   height: 40px;
   animation: animateDown infinite 1.5s;
 `;
 const Buttons = styled.div`
   display: flex;
   flex-direction: column;
-  
 `;
