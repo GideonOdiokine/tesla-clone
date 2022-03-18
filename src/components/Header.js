@@ -6,9 +6,9 @@ const Header = () => {
   const [show, setShow] = useState(false);
   return (
     <Container>
-      <a>
+      <Link to="/">
         <img src="/images/logo.svg" alt="logo" />
-      </a>
+      </Link>
       <Menu>
         <Link to="/">Model S</Link>
 
